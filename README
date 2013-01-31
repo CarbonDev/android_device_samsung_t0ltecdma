@@ -1,6 +1,6 @@
 
  Copyright (C) 2012 The CyanogenMod Project
- Copyright (C) 2012 The LiquidSmooth Project
+ Copyright (C) 2012 The Carbon Project
 
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -19,3 +19,4 @@ Device Configuration for Samsung Galaxy Note 2 LTE (CDMA)
 Supported Variants:
   - SPH-L900 (SPR)
   - SCH-I605 (VZW)
+  - SCH-R950 (USC)
