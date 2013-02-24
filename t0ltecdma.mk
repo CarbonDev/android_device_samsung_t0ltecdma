@@ -86,7 +86,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.hsxpa=1 \
     ro.ril.gprsclass=10 \
     ro.telephony.ril_class=SamsungCDMAQualcommRIL \
-    mobiledata.interfaces=pdp0,wlan0,gprs,ppp0,rmnet_usb0
+    mobiledata.interfaces=pdp0,wlan0,gprs,ppp0,rmnet_usb0 \
+    ro.opensource.audio=t0ltecdma
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \

@@ -3094,7 +3094,7 @@ static int adev_config_parse(struct m0_audio_device *adev)
     bool eof = false;
     int len;
 
-    property_get("ro.product.device", property, "tiny_hw");
+    property_get("ro.opensource.audio", property, "tiny_hw");
     snprintf(file, sizeof(file), "/system/etc/sound/%s", property);
 
     ALOGV("Reading configuration from %s\n", file);
