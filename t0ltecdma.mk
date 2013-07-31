@@ -75,20 +75,11 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
-<<<<<<< HEAD
-    ro.ril.hsxpa=1 \
-    ro.ril.gprsclass=10 \
-    ro.config.qc_lte_network_modes=true \
-    ro.telephony.ril_class=SamsungCDMAQualcommRIL \
-    mobiledata.interfaces=pdp0,wlan0,gprs,ppp0,rmnet_usb0 \
-    ro.opensource.audio=t0ltecdma
-=======
     ro.telephony.ril_class=SamsungQualcommRIL \
     mobiledata.interfaces=pdp0,wlan0,gprs,ppp0,rmnet_usb0 \
     ro.ril.hsxpa=1 \
     ro.ril.gprsclass=10 \
     ro.config.qc_lte_network_modes=true
->>>>>>> 76bec9c97063a46032f029561417c62ae45db962
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
@@ -104,8 +95,5 @@ PRODUCT_COPY_FILES += \
 # Include common makefile
 $(call inherit-product, device/samsung/smdk4412-common/common.mk)
 $(call inherit-product, device/samsung/smdk4412-qcom-common/common.mk)
-<<<<<<< HEAD
-=======
 
->>>>>>> 76bec9c97063a46032f029561417c62ae45db962
 $(call inherit-product-if-exists, vendor/samsung/t0ltecdma/t0ltecdma-vendor.mk)
